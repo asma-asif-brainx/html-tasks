@@ -1,0 +1,96 @@
+
+.header-png{
+    height: 220px;
+    width: 100%;
+}
+
+.nav-head{
+   text-align: -webkit-center;
+   font-size: 16px;
+}
+
+.main-head{
+    text-align: center;
+    font-size:32px;
+}
+
+.sub-head-1{
+    text-decoration: underline;
+    text-align: center;
+    font-size:24;
+}
+
+
+.container-graphics  {
+    overflow: hidden; 
+    text-align: center; 
+}
+
+.java-img{
+    float:left;
+    width: 290px;
+    height: 190px;
+    margin: 0px;
+}
+
+.adobe-para{
+    width: 1400px;
+    text-align: left; 
+    margin: 0px; 
+    font-size: 16px;
+}
+
+
+.draw-para{
+    width: 1400px;
+    text-align: left; 
+    margin: 0px; 
+    font-size: 16px;
+}
+
+.illustrator-para{
+    width: 1400px;
+    text-align: left; 
+    margin: 0px; 
+    font-size: 16px;
+}
+.illustrator-para b, .draw-para b, .adobe-para b {
+    text-decoration: underline; 
+}
+
+
+.sub-head-2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+.container-web  {
+    overflow: hidden; 
+}
+
+.html-img{
+    float:right;
+    width: 300px;
+    height: 220px;
+    margin: 0px;
+}
+
+
+.html-para-1,.html-para-2 , .html-para-3 {
+    width: 1120px;
+    text-align: left; 
+    margin: 0px; 
+    font-size: 16px;
+}
+.html-para-1 b,.html-para-2 b, .html-para-3 b{
+    text-decoration: underline; 
+}
+
+
+.footer-img{
+    width: 100%;
+}

@@ -1,368 +1,54 @@
 
-#form-container{
-    width:40%;
-    height: auto;
-    margin-left:30%;
-    margin-right:30%;
-    padding-left:20px;
-    padding-right:20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-bottom: 10px;
-}
 
-
-.custom-select-container {
-    position: relative;
-    display: inline-block;
-    font-family: Arial, sans-serif; 
-}
-
-.custom-select-container select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-}
-
-.custom-select-container::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 12px; 
-    width: 0;
-    height: 0;
-    border-left: 7px solid transparent; 
-    border-right: 7px solid transparent; 
-    border-top: 7px solid black; 
-    transform: translateY(-165%) rotate(1deg); 
-}
-
-nav{
-
-    background-color: darkred;
-    width: 107.5%;
-    height: 20px;
-    margin-left:-20px;
-}
-
-#first{
-    font-size: 10px; 
-    margin-left: 165px;
-}
-
-
-#last{
-    font-size: 10px; 
-    margin-left: 155px;
-}
-
-
-#add1{
-    font-size: 10px; 
-    margin-left: 340px;
-}
-
-
-#add2{
-    font-size: 10px;     
-    margin-left: 340px;
-}
-
-
-#count{
-    font-size: 10px;
-    margin-left: 345px;
-}
-
-
-
-#fname{
-    height:30px;
-    margin-left: 120px;
-    width: 200px;
-    margin-bottom: -5px;
-
-}
-
-#lname{
-    height:30px;
-    width: 200px;
-    margin-bottom: -5px;
-}
-
-#email{
-    width: 370px;
-    height: 30px;
-    margin-left: 120px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-
-}
-
-#edu{
-    margin-left: 87px;
-    margin-bottom: 15px;
-    width:320px;
-    height: 30px;
-    padding-left: 10px;
-
-} 
-
-#resume{
-    margin-left: 110px;
-    margin-bottom: 15px;
-    width: 400px;
-    height: 30px;
-   border: 1px solid;
-   padding: 2px;
-}
-
-
-#address{
-    margin-left: 110px;
-    width: 400px;
-    height: 30px;
-}
-
-
-#address2{
-    margin-left: 165px;
-    width: 400px;
-    height: 30px;
-}
-
-#country{
-    margin-left: 165px;
-    width: 400px;
-    height: 30px;
-    padding-left: 10px;
-
-}
-
-#city{
-    margin-left: 165px;
-    width:260px;
-    height: 30px;
-}
-
-
-#state{
-    width:50px;
-    height: 30px;
-
-}
-
-
-#zip{
-    width: 80px;
-    height: 30px;
-
-}
-
-#phNo{
-    width: 61%;
-    height: 30px ;
-    margin-bottom: 20px;
-    margin-top:15px;
-
-}
-
-
-#phCode{
-    margin-left: 66px;
-    width: 45px;
-    height: 30px ;
-    margin-bottom: 20px;
-    margin-top:15px;
-
-}
-
-#hobby{
+.header-png{
+    height: 220px;
     width: 100%;
-    height: 30px;
+}
+
+.nav-head{
+   text-align: -webkit-center;
+   font-size: 16px;
+}
+
+.main-head{
+    text-decoration: underline;
+    text-align: center;
 }
 
 
-
-
-#company-name{
-    margin-left: 160px;
-    width: 400px;
-    height: 30px;
-    margin-top: -20px;
-
+.container {
+    overflow: hidden; 
+    text-align: center; 
 }
 
 
-
-.job-title{    
-    width: 400px;
-    height: 30px;
-
+.img-sea{
+    float:left;
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
 }
 
-#job-title{
-    margin-left: 160px;
-    width: 400px;
-    height: 30px;
-    margin-top:-20px;
+.img-butterfly{
+    float:right;
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
 }
 
-#emp-stay{
-    margin-left: 160px;
-    width: 400px;
-    height: 30px;
-    margin-top: -40px;
+.p1{
+    display: inline-block; 
+    width: 780px;
+    text-align: left; 
+    margin: 0; 
+    font-size: 16px;
 }
 
-
-
-#name-1{
-    margin-left: 160px;
-    margin-bottom: 10px;
-    margin-top: -20px;
-    width: 400px;
-    height: 30px;
-
-
-}
-
-#country , #edu {
-    font-weight: bold;
+.sub-head{
+    text-decoration: underline;
 }
 
 
-#name-2{
-    margin-left: 160px;
-    margin-bottom: 10px;
-    margin-top: -20px;
-    width: 400px;
-    height: 30px;
+.footer-img{
+    width: 100%;
 }
-
-
-#phone-1{
- margin-left: 160px;
-    margin-bottom: 10px;
-    margin-top: -20px;
-    width: 400px;
-    height: 30px;
-}
-
-#phone-2{
-    margin-left: 160px;
-    margin-bottom: 10px;
-    margin-top: -20px;
-    width: 400px;
-    height: 30px;
-
-}
-
-
-#apply{
-    width: 100px;
-    height: 40px;
-    color: white;
-    background-color: darkred;
-    border-radius: 3px;
-    font-size:15px;
-    margin:auto;
-  display:block;
-}
-
-
-
-
- /* Base styles for the custom select container */
- .custom-select-container2 {
-    position: relative;
-    display: inline-block;
-    font-family: Arial, sans-serif; /* Specify your preferred font */
-}
-/* Styles for the select element */
-.custom-select-container2 select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-}
-/* Custom dropdown icon */
-.custom-select-container2::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 12px; /* Adjust distance from right edge */
-    width: 0;
-    height: 0;
-    border-left: 7px solid transparent; /* Adjust size of the arrow */
-    border-right: 7px solid transparent; /* Adjust size of the arrow */
-    border-top: 7px solid black; /* Adjust color */
-    transform: translateY(-45%) rotate(1deg); /* Rotate and position the triangle */
-}
-
-
-
-
-
-
-
-
-/* Media queries */
-
-
-
-@media (max-width: 767px) {
-    #form-container {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    #fname, #lname, #email, #edu, #resume, #address, #address2, #country, #city, #state, #zip, #phCode, #phNo, #hobby, #company-name, #job-title, #emp-stay, #name-1, #name-2, #phone-1, #phone-2 {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    label {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 330px) {
-    h1, h2 {
-        font-size: 6px;
-    }
-
-    #form-container{
-        width: 100%;
-        max-width: 50%;
-        height: 60%;
-    }
-
-
-    nav {
-        height:20px;
-    }
-
-
-
-    #apply {
-        width: 50px;
-        height: 30px;
-        font-size: 10px;
-    }
-}
-
-

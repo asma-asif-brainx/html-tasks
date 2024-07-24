@@ -1,0 +1,39 @@
+
+
+
+.header-png{
+    height: 220px;
+    width: 100%;
+}
+
+.nav-head{
+   text-align: -webkit-center;
+   font-size: 16px;
+}
+
+
+
+.main-head{
+    color:#008c8c;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.images{
+    text-align: center;
+}
+
+
+.png1, .png2, .png3, .png4{
+    width: 250px ;
+    height: 200px;
+
+    border:5px solid blue;
+}
+
+
+
+.footer-img{
+    width: 100%;
+}
